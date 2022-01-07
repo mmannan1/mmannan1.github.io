@@ -1,0 +1,151 @@
+<!-- css lesson -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jan6.css">
+    <title>Jan 6 Website - CSS</title>
+
+    <!-- internal css -->
+    <!-- <style>
+
+        /* h1,p {
+            color: purple; 
+            background-color: lightgreen; 
+            font-size: 50px; 
+            border: 2px dotted orange; 
+            padding: 10px;
+        }
+
+        p { font-weight: bold; } */
+
+        .order1 {
+            text-align: cSubmit;
+            color: purple; 
+            background-color: lightgreen; 
+            font-size: 50px; 
+            border: 2px dotted orange; 
+            padding: 10px;
+        }
+
+        p { font-weight: bold; }
+
+        .order2 {
+            text-align: cSubmit;
+            font-family: arial;
+            font-size: 24px;
+
+            color:blue;
+            background-color: lightblue;
+            border: 2px solid plum;
+            box-shadow: 12px 12px 10px orange;
+
+            width: 300px;
+            height: 100px;
+
+            /* padding-top: 10%;
+            padding-right: 10%;
+            padding-bottom: 10%;
+            padding-left: 10%;
+            padding: 10% 10% 10% 10%; */
+            padding: 10%;
+            /* margin-left: 10%;
+            margin-top: 30%; */
+            margin: 30% 10%;
+            text-shadow: 5px 3px 5px red; 
+            /* text-shadow: right/left, top/bottom, blurriness */
+        }
+
+        #sec {
+            font-style: italic;
+        }
+        
+    
+    </style> -->
+</head>
+<body>
+    <!-- CSS: inline css, internal css, external css -->
+
+    <!-- in-line CSS - not recommended -->
+    <!-- <h1 style="color:purple; background-color: lightgreen; font-size: 50px; border: 5px dotted orange; padding: 2px;">Hello Again!</h1>
+    <p style="color:purple; font-weight: bold; background-color: lightgreen; font-size: 50px; border: 5px dotted orange; padding: 2px;">some text</p> -->
+
+    <!-- class always preferred -->
+
+    <h1 class="order1">Hello Again!</h1>
+    <h1 id="sec">Second title</h1>
+    <p class="order1">some text</p>
+    <p class="order2">2nd paragraph</p>
+
+    <hr>
+    <br>
+    <h1><mark>Practice with 8 paragraphs - keep adding new properties to each new paragraph without losing the previous properties</mark> </h1>
+    <p class="p1">some text</p>
+    <p class="p1 p2">some text</p>
+    <p class="p1 p2 p3">some text</p>
+    <p class="p1 p2 p3 p4">some text</p>
+    <p class="p1 p2 p3 p4 p5">some text</p>
+    <p class="p1 p2 p3 p4 p5 p6">some text</p>
+    <p class="p1 p2 p3 p4 p5 p6 p7">some text</p>
+    <p class="p1 p2 p3 p4 p5 p6 p7 p8">some text</p>
+
+    <hr>
+    <h1>Inline blocks</h1>
+
+    <div class="first">
+        <img src="img/cat.jpg" alt="">
+
+        <img src="img/heart.jpg" alt="">
+
+        <img src="img/heart.jpg" alt="">
+
+        <img src="img/firework2.jpg" alt="">
+    </div>
+
+    <br>
+    <br>
+
+    <h1>Inline Vers 2</h1>
+    <br>
+
+    <div class="box">
+        <div class="pic">
+            <img class="img1" src="img/cat.jpg" alt="">
+            <div class="info">
+                <p>Some Text</p>
+                <a title="QCC" href="https://www.qcc.cuny.edu/">Queensborough Community College</a>
+            </div>
+        </div>
+
+        <div class="pic">
+            <img class="img1" src="img/heart.jpg" alt="">
+            <div class="info">
+                <p>Some Text</p>
+                <a title="QCC" href="https://www.qcc.cuny.edu/">Queensborough Community College</a>
+            </div>
+        </div>
+
+        <div class="pic">
+            <img class="img1" src="img/heart.jpg" alt="">
+            <div class="info">
+                <p>Some Text</p>
+                <a title="QCC" href="https://www.qcc.cuny.edu/">Queensborough Community College</a>
+                
+            </div>
+        </div>
+
+        <div class="pic">
+            <img class="img1" src="img/firework2.jpg" alt="">
+            <div class="info">
+                <p>Some Text</p>
+                <a title="QCC" href="https://www.qcc.cuny.edu/">Queensborough Community College</a>
+        
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
