@@ -1,0 +1,25 @@
+#glink {
+    color: hotpink;
+}
+
+.pink {
+    background-color: lightpink;
+}
+
+
+table, th, td 
+{
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+table {
+    background-color: yellow;
+}
+
+.toplabel{
+    font-weight: bold;
+}
+
+
